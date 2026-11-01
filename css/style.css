@@ -1,4 +1,3 @@
-Hier ist eine korrigierte Version deiner CSS-Datei:
 
 body {
     background-color: #CCDFCC;
@@ -29,4 +28,17 @@ div#c1 {
     font-family: Calibri, sans-serif;
     text-align: left;
     color: #233d00;
+}
+
+
+
+
+
+footer {
+    width: 30%;
+    text-align: left;
+    padding: 10px;
+    color: white; 
+    background-color: #1e3a2b;
+    
 }
