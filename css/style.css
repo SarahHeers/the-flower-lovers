@@ -9,16 +9,14 @@ h2 {
     color: #233d00;
 }
 
-.web-spalten {
+.web-spalte-left {
     width: 50%;
     text-align: left;
 }
 
-.Stil2 {
-    font-family: Calibri, sans-serif;
-    font-size: x-large;
-    text-align: center;
-    color: #233d00;
+.web-spalte-right {
+    width: 50%;
+    text-align: right;
 }
 
 div#c1 {
