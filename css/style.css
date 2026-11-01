@@ -25,8 +25,14 @@ div#c1 {
     font-family: Calibri, sans-serif;
     text-align: left;
     color: #233d00;
-    padding: 10px;
+    gap: 20px;
 }
+
+div#c1 h2 {
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+    color: #233d00;
+}   
 
 div#c2 {
     display: flex;
@@ -34,8 +40,8 @@ div#c2 {
     font-family: Calibri, sans-serif;
     text-align: left;
     color: #233d00;
-    padding: 10px;
-}   
+    gap: 20px;
+}
 
 
 
