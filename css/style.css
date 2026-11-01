@@ -19,7 +19,7 @@ h2 {
     text-align: right;
 }
 
-div.c1 {
+.c1 {
     display: flex;
     justify-content: space-between;
     font-family: Calibri, sans-serif;
@@ -28,19 +28,26 @@ div.c1 {
     gap: 20px;
 }
 
-div.c1 h2 {
+.c1 h2 {
     font-family: Calibri, sans-serif;
     font-size: xx-large;
     color: #233d00;
 }   
 
-div.c2 {
+.c2 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between; 
+    align-items: flex-start;
+    width
     font-family: Calibri, sans-serif;
-    text-align: left;
     color: #233d00;
     gap: 20px;
+}
+
+.c2 .web-spalte-left {
+    width: 50%;
+    text-align: left;
 }
 
 header {
