@@ -19,7 +19,7 @@ h2 {
     text-align: right;
 }
 
-div#c1 {
+div.c1 {
     display: flex;
     justify-content: space-between;
     font-family: Calibri, sans-serif;
@@ -28,13 +28,13 @@ div#c1 {
     gap: 20px;
 }
 
-div#c1 h2 {
+div.c1 h2 {
     font-family: Calibri, sans-serif;
     font-size: xx-large;
     color: #233d00;
 }   
 
-div#c2 {
+div.c2 {
     display: flex;
     justify-content: space-between; 
     font-family: Calibri, sans-serif;
@@ -79,22 +79,29 @@ footer {
   padding: 10px;
   color: white;
   background-color: #1e3a2b;
+  box-sizing: border-box;
 }
 
 .footer-left {
-  width: 33.33%;
+  flex: 1;
   text-align: left;
 }
 
 .footer-center {
-  width: 33.33%;
+  flex: 1;
   text-align: center;
 }
 
 .footer-right {
-  width: 33.33%;
+  flex: 1;
   text-align: right;
 }
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
 footer a {
   color: white;
   text-decoration: none;
