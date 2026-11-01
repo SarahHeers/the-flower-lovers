@@ -1,5 +1,32 @@
-background {background-color: #CCDFCC;}
-h2 {font-family: Calibri; font-size: xxx-large; color: #233d00;}
-.Stil1 {font-family: CalibriLight; font-size: xx-large; text-align: center; color: #233d00; background: #000000;}
-.Stil2 {font-family: CalibriLight; font-size: x-large; text-align: center; color: #233d00;}
-div#c1 {font-family: Calibri; text-align: left; color: #233d00;}
+Hier ist eine korrigierte Version deiner CSS-Datei:
+
+body {
+    background-color: #CCDFCC;
+}
+
+h2 {
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+    color: #233d00;
+}
+
+.Stil1 {
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: #233d00;
+    background-color: #000000;
+}
+
+.Stil2 {
+    font-family: Calibri, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: #233d00;
+}
+
+div#c1 {
+    font-family: Calibri, sans-serif;
+    text-align: left;
+    color: #233d00;
+}
