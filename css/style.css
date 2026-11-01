@@ -43,11 +43,36 @@ div#c2 {
     gap: 20px;
 }
 
+header {
+  width: 85%;
+  font-family: Calibri, sans-serif;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  background-color: #1e3a2b;
+}
 
+<-- Navigation nebeneinander -->
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+<-- Web-Links -->
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+<-- Drüberfahren mit Maus -->
+header a:hover {
+  color: #CCDFCC;
+}
 
 
 footer {
   width: 85%;
+  font-family: Calibri, sans-serif;
   text-align: left;
   padding: 10px;
   color: white;
