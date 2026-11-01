@@ -21,11 +21,24 @@ h2 {
 
 .c1 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
     font-family: Calibri, sans-serif;
     text-align: left;
     color: #233d00;
     gap: 20px;
+}
+
+.c1 .web-spalte-left {
+    flex: 1;
+    width: auto;
+}
+.c1 h2 {
+    font-family: Calibri, sans-serif;
+    font-size: xx-large;
+    color: #233d00;
 }
 
 .c1 h2 {
@@ -39,7 +52,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between; 
     align-items: flex-start;
-    width
+    width: 100%;
     font-family: Calibri, sans-serif;
     color: #233d00;
     gap: 20px;
