@@ -52,19 +52,19 @@ header {
   background-color: #1e3a2b;
 }
 
-<-- Navigation nebeneinander -->
+/* Navigation nebeneinander */
 header nav {
   display: flex;
   gap: 30px;
 }
 
-<-- Web-Links -->
+/* Web-Links */
 header a {
   color: white;
   text-decoration: none;
 }
 
-<-- Drüberfahren mit Maus -->
+/* Drüberfahren mit Maus */
 header a:hover {
   color: #CCDFCC;
 }
