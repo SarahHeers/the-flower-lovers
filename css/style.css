@@ -35,10 +35,17 @@ div#c1 {
 
 
 footer {
-    width: 30%;
-    text-align: left;
-    padding: 10px;
-    color: white; 
-    background-color: #1e3a2b;
-    
+  width: 85%;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  background-color: #1e3a2b;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #CCDFCC;
 }
