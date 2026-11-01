@@ -11,47 +11,122 @@ h2 {
     color: #233d00;
 }
 
-.Stil1 {
+.web-spalte-left {
+    width: 50%;
+    text-align: left;
+}
+
+.web-spalte-right {
+    width: 50%;
+    text-align: right;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: Calibri, sans-serif;
+    text-align: left;
+    color: #233d00;
+    gap: 20px;
+}
+
+.c1 .web-spalte-left {
+    flex: 1;
+    width: auto;
+}
+.c1 h2 {
     font-family: Calibri, sans-serif;
     font-size: xx-large;
-    text-align: center;
-    color: #233d00;
-    background-color: #000000;
-}
-
-.Stil2 {
-    font-family: Calibri, sans-serif;
-    font-size: x-large;
-    text-align: center;
     color: #233d00;
 }
 
-div#c1 {
+.c1 h2 {
     font-family: Calibri, sans-serif;
-    text-align: left;
+    font-size: xx-large;
     color: #233d00;
-}
-
-div#c2 {
-    font-family: Calibri, sans-serif;
-    text-align: left;
-    color: #233d00;
-    padding: 10px;
 }   
 
+.c2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+    width: 100%;
+    font-family: Calibri, sans-serif;
+    color: #233d00;
+    gap: 20px;
+}
 
+.c2 .web-spalte-left {
+    width: 50%;
+    text-align: left;
+}
 
-
-footer {
+header {
   width: 85%;
+  font-family: Calibri, sans-serif;
   text-align: left;
   padding: 10px;
   color: white;
   background-color: #1e3a2b;
 }
 
+/* Navigation nebeneinander */
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+/* Web-Links */
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Drüberfahren mit Maus */
+header a:hover {
+  color: #CCDFCC;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #1e3a2b;
+  box-sizing: border-box;
+}
+
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-center {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
 footer a {
   color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
