@@ -71,16 +71,33 @@ header a:hover {
 
 
 footer {
+  display: flex;
+  justify-content: space-between;
   width: 85%;
   font-family: Calibri, sans-serif;
-  text-align: left;
+  text-align: center;
   padding: 10px;
   color: white;
   background-color: #1e3a2b;
 }
 
+.footer-left {
+  width: 33.33%;
+  text-align: left;
+}
+
+.footer-center {
+  width: 33.33%;
+  text-align: center;
+}
+
+.footer-right {
+  width: 33.33%;
+  text-align: right;
+}
 footer a {
   color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
