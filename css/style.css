@@ -9,12 +9,9 @@ h2 {
     color: #233d00;
 }
 
-.Stil1 {
-    font-family: Calibri, sans-serif;
-    font-size: xx-large;
-    text-align: center;
-    color: #233d00;
-    background-color: #000000;
+.web-spalten {
+    width: 50%;
+    text-align: left;
 }
 
 .Stil2 {
@@ -25,12 +22,17 @@ h2 {
 }
 
 div#c1 {
+    display: flex;
+    justify-content: space-between;
     font-family: Calibri, sans-serif;
     text-align: left;
     color: #233d00;
+    padding: 10px;
 }
 
 div#c2 {
+    display: flex;
+    justify-content: space-between; 
     font-family: Calibri, sans-serif;
     text-align: left;
     color: #233d00;
